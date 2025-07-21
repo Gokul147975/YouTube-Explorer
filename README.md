@@ -1,12 +1,25 @@
-# React + Vite
+# YouTube Explorer 🎥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Bootstrap app to search YouTube videos, view details, and save videos for later.
 
-Currently, two official plugins are available:
+## Features 🚀
+- Search videos via YouTube Data API
+- View thumbnails, titles, views, likes
+- "Watch Later" feature using localStorage
+- Responsive UI with React-Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack 🛠️
+- React + Vite
+- React Router DOM
+- React Bootstrap
+- Axios
+- YouTube Data API v3
 
-## Expanding the ESLint configuration
+## Demo
+![Screenshot of App](./screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+1. Clone the repo
+2. Run `npm install`
+3. Create `.env` with `VITE_YOUTUBE_API_KEY=YOUR_API_KEY`
+4. Run `npm run dev`
