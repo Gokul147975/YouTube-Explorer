@@ -26,5 +26,9 @@ A simple React + Bootstrap app to search YouTube videos, view details, and save 
 ## 📸 Demo
 
 ### App Screenshot:
+<<<<<<< HEAD
 ![App Demo](./screenshots/YouTube_Explorer.png)
 >>>>>>> b0e5801 (Added app screenshot and updated README)
+=======
+![App Demo](./screenshots/YouTube_Explorer..png)
+>>>>>>> 6bfa990 (Fixed README screenshot link)
